@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('fondo.jpg');
+}
+
+.form-register {
+    width: 390px;
+    background: #f9f9f9;
+    padding: 17px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color: #4a3d3d;
+    box-shadow: -1px 1px 20px 0px #b3b8d1;
+}
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.corp{ 
+    padding: 20px;
+    font-family: 'calibri';
+    color: #4a3d3d;
+    font-size: 13px;
+   
+}
+.controls {
+  width: 100%;
+  background: #fdfdfd;
+  padding: 10px;
+  border-radius: 14px;
+  margin-bottom: 16px;
+  border: 1px solid #a1a4a9;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: #525252;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #585a5c;
+    border: none;
+    padding: 12px;
+    color: #e3e5e9;
+    margin: 3px 0;
+    border-radius: 45px;
+    font-size: 16px;
+
+
+}
+.form-register .botons:hover {
+    width: 100%;
+    background-color: #286d3e;
+    cursor: pointer;
+    
+
+}
