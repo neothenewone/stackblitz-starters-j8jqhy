@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Loguin from './loguin';
-import Formulario from './Formulario'
+
 
 export default function App() {
   const datos={dni:"30548471",
@@ -13,7 +13,7 @@ export default function App() {
   
   return (
     <div className="App">
-      <Formulario objet={datos}/>
+      <Loguin/>
       
       
     </div>
